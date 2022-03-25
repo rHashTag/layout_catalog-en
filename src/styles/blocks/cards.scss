@@ -1,10 +1,16 @@
 .cards {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
-  // margin: 0 auto;
-  gap: 50px;
-  // margin: auto 50px;
-  // padding-top: 50px;
-  max-width: 950px;
+  margin: 0 auto;
+  padding: 50px 40px;
+  width: 1024px;
+
+  &__card {
+    margin-right: 48px;
+    margin-bottom: 46px;
+
+    &:nth-child(4n) {
+      margin-right: 0;
+    }
+  }
 }
