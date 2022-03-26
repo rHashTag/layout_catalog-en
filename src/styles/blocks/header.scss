@@ -53,13 +53,13 @@
     transition: color 0.3s;
 
     &:hover {
-      color: #00acdc;
+      color: var(--blue-accent);
     }
   }
 }
 
 .is-active {
-  color: #00acdc;
+  color: var(--blue-accent);
 
   &::after {
     content: "";
@@ -69,7 +69,7 @@
     right: 0;
     height: 4px;
 
-    background: #00acdc;
+    background: var(--blue-accent);
     border-radius: 8px;
   }
 }
